@@ -1,0 +1,90 @@
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top:15%;
+    background: linear-gradient(to right, lightgreen,  lightblue); /*background gradient*/
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+
+.btn {
+    padding: 10px;
+    border: 4px thin #494949;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 8px;
+    margin: 3px;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+  }
+
+.bgcolor-random{
+    margin-top: 20px;
+    padding-top: 40px;;
+    text-align: center;
+    background: darkturquoise;
+    height: 200px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bgcolor-random p {
+    color: white;
+}
+
+.bgcolor-random button {
+    margin-top: 10px;
+    padding: 10px;
+    background: none;
+    outline: none;
+    color: white;
+    border: 3px solid white;
+    text-shadow: 2px 2px grey;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#hex {
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #030303;
+    background: #42cbfd;
+    border-color: #272626;
+    transition: all 0.4s ease 0s;
+}
+
+  .colorNew {
+    display: block;
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: monospace;
+    background: lightseagreen;
+  }
